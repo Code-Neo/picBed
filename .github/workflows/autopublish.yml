@@ -3,7 +3,7 @@ name: 自动publish
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   publish-npm:
@@ -17,4 +17,3 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-          NPM_TOKEN: ${{secrets.npm_token}}
