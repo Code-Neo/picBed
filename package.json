@@ -1,0 +1,22 @@
+{
+  "name": "code-neo-picbed",
+  "version": "1.0.0",
+  "description": "静态资源库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Neo/picBed.git"
+  },
+  "keywords": [
+    "图床"
+  ],
+  "author": "code-neo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-Neo/picBed/issues"
+  },
+  "homepage": "https://github.com/Code-Neo/picBed#readme"
+}
